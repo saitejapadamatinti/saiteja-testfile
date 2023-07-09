@@ -1,0 +1,47 @@
+.cateory-card-div {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  width: 4rem;
+  height: 1.5rem;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0.75rem;
+  border-radius: 0.375rem;
+  border-color: #000000;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.cateory-card-div:hover {
+  border-color: #000000;
+}
+
+.card-main-heading {
+  color: #1e40af;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+}
+
+.card-para {
+  text-transform: capitalize;
+  color: #6b46c1;
+  font-size: 0.875rem;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .cateory-card-div {
+    width: 15rem;
+    height: 10rem;
+    padding: 0.75rem;
+  }
+  .card-main-heading {
+    font-size: 2rem;
+    padding-top: 1.5rem;
+  }
+  .card-para {
+    display: block;
+  }
+}
